@@ -1,0 +1,9 @@
+category_links = [
+        "https://www.designrush.com/agency/web-development-companies/in/ahmedabad",
+        "https://www.designrush.com/agency/software-development/in/ahmedabad",
+        "https://www.designrush.com/agency/graphic-design/in/ahmedabad",
+        "https://www.designrush.com/agency/digital-marketing/in/ahmedabad",
+        "https://www.designrush.com/agency/ui-ux-design/in/ahmedabad",
+        "https://www.designrush.com/agency/search-engine-optimization/in/ahmedabad",
+        # add more links if needed
+    ]

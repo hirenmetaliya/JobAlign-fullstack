@@ -1,0 +1,1136 @@
+2025-04-21 22:48:20,881 - INFO - Starting job scraping process
+2025-04-21 22:48:20,882 - INFO - Loaded 0 company websites
+2025-04-21 22:48:21,864 - INFO - Successfully saved 0 jobs to scraped_jobs_20250421_224821.json
+2025-04-21 22:48:21,865 - INFO - Scraping completed in 0:00:00.983873
+2025-04-21 22:49:27,351 - INFO - Starting job scraping process
+2025-04-21 22:49:27,353 - INFO - Loaded 581 company websites
+2025-04-21 22:49:27,909 - INFO - Processing batch 1: 5 websites
+2025-04-21 22:49:27,910 - INFO - Processing company: https://www.bytestechnolab.com/our-services/?utm_source=designrush.com&utm_medium=referral&utm_campaign=directory
+2025-04-21 22:49:27,914 - INFO - Processing company: https://magnetoitsolutions.com/?utm_source=designrush&utm_medium=top_directory_listing&utm_campaign=designrush_profile
+2025-04-21 22:49:27,917 - INFO - Processing company: https://www.openxcell.com/?utm_source=designrush&utm_medium=referral&utm_campaign=profile
+2025-04-21 22:49:27,920 - INFO - Processing company: https://www.addwebsolution.com/
+2025-04-21 22:49:27,923 - INFO - Processing company: https://internut.my
+2025-04-21 22:49:32,033 - WARNING - No career links found for https://www.openxcell.com/?utm_source=designrush&utm_medium=referral&utm_campaign=profile
+2025-04-21 22:49:44,805 - WARNING - No career links found for https://internut.my
+2025-04-21 22:49:55,613 - INFO - Completed batch. Total jobs found so far: 0
+2025-04-21 22:50:00,624 - INFO - Processing batch 2: 5 websites
+2025-04-21 22:50:00,624 - INFO - Processing company: https://www.solutionanalysts.com
+2025-04-21 22:50:00,626 - INFO - Processing company: https://techforceglobal.com
+2025-04-21 22:50:00,628 - INFO - Processing company: https://octet.design/?utm_source=DesignRush&utm_medium=Categories&utm_campaign=August
+2025-04-21 22:50:00,630 - INFO - Processing company: https://www.krishaweb.com
+2025-04-21 22:50:00,632 - INFO - Processing company: https://www.iqlance.com
+2025-04-21 22:50:24,230 - ERROR - Error processing https://www.krishaweb.com/career/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-04-21 22:50:24,275 - INFO - Completed batch. Total jobs found so far: 22
+2025-04-21 22:50:29,285 - INFO - Processing batch 3: 5 websites
+2025-04-21 22:50:29,286 - INFO - Processing company: https://www.alliancetek.com/?utm_source=designrush&utm_medium=referral&utm_campaign=designrush_software-development
+2025-04-21 22:50:29,288 - INFO - Processing company: https://www.mavlers.com/digital-outsourcing-agency/?utm_source=designrush&utm_medium=visit_website_cta&utm_campaign=directory_listing
+2025-04-21 22:50:29,290 - INFO - Processing company: https://sonomainfotech.com
+2025-04-21 22:50:29,293 - INFO - Processing company: https://www.spec-india.com
+2025-04-21 22:50:29,294 - INFO - Processing company: https://www.itservicesindia.com/
+2025-04-21 22:50:34,886 - WARNING - No career links found for https://www.mavlers.com/digital-outsourcing-agency/?utm_source=designrush&utm_medium=visit_website_cta&utm_campaign=directory_listing
+2025-04-21 22:50:35,532 - WARNING - No career links found for https://sonomainfotech.com
+2025-04-21 22:50:44,124 - ERROR - Error processing https://www.alliancetek.comcareer.html: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.alliancetek.comcareer.html/
+Call log:
+  - navigating to "https://www.alliancetek.comcareer.html/", waiting until "load"
+
+2025-04-21 22:50:44,820 - INFO - Completed batch. Total jobs found so far: 23
+2025-04-21 22:50:49,825 - INFO - Processing batch 4: 5 websites
+2025-04-21 22:50:49,825 - INFO - Processing company: https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing
+2025-04-21 22:50:49,827 - INFO - Processing company: https://icubetechnolabs.com/
+2025-04-21 22:50:49,829 - INFO - Processing company: https://www.cmarix.com
+2025-04-21 22:50:49,831 - INFO - Processing company: https://www.avidclan.com
+2025-04-21 22:50:49,833 - INFO - Processing company: https://www.junkiescoder.com
+2025-04-21 22:50:54,752 - WARNING - No career links found for https://www.junkiescoder.com
+2025-04-21 22:50:56,074 - ERROR - Error processing https://www.cmarix.comcareer.html: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cmarix.comcareer.html/
+Call log:
+  - navigating to "https://www.cmarix.comcareer.html/", waiting until "load"
+
+2025-04-21 22:51:28,624 - WARNING - Attempt 1 failed for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing: Timeout 30000ms exceeded.
+2025-04-21 22:51:30,766 - WARNING - Attempt 1 failed for https://icubetechnolabs.com/: Timeout 30000ms exceeded.
+2025-04-21 22:52:00,071 - WARNING - Attempt 2 failed for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing: Timeout 30000ms exceeded.
+2025-04-21 22:52:06,342 - WARNING - Attempt 2 failed for https://icubetechnolabs.com/: Timeout 30000ms exceeded.
+2025-04-21 22:52:32,615 - WARNING - Attempt 3 failed for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing: Timeout 30000ms exceeded.
+2025-04-21 22:52:32,616 - ERROR - Failed to scrape links from https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing after 3 attempts
+2025-04-21 22:52:32,616 - WARNING - No career links found for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing
+2025-04-21 22:52:41,946 - WARNING - Attempt 3 failed for https://icubetechnolabs.com/: Timeout 30000ms exceeded.
+2025-04-21 22:52:41,947 - ERROR - Failed to scrape links from https://icubetechnolabs.com/ after 3 attempts
+2025-04-21 22:52:41,947 - WARNING - No career links found for https://icubetechnolabs.com/
+2025-04-21 22:52:41,983 - INFO - Completed batch. Total jobs found so far: 29
+2025-04-21 22:52:46,984 - INFO - Processing batch 5: 5 websites
+2025-04-21 22:52:46,984 - INFO - Processing company: https://www.nevinainfotech.com
+2025-04-21 22:52:46,986 - INFO - Processing company: https://www.intuz.com
+2025-04-21 22:52:46,989 - INFO - Processing company: https://www.groovyweb.co?utm_source=DesignRush&utm_medium=directory&utm_campaign=DesignRush
+2025-04-21 22:52:46,991 - INFO - Processing company: https://www.netclues.ca
+2025-04-21 22:52:46,992 - INFO - Processing company: https://multiverseapp.com
+2025-04-21 22:52:50,210 - WARNING - No career links found for https://multiverseapp.com
+2025-04-21 22:53:01,127 - WARNING - No career links found for https://www.netclues.ca
+2025-04-21 22:53:07,954 - INFO - Completed batch. Total jobs found so far: 40
+2025-04-21 22:53:12,969 - INFO - Processing batch 6: 5 websites
+2025-04-21 22:53:12,970 - INFO - Processing company: https://rushkar.com
+2025-04-21 22:53:12,971 - INFO - Processing company: https://www.revivalpixel.com
+2025-04-21 22:53:12,974 - INFO - Processing company: https://radixweb.com
+2025-04-21 22:53:12,976 - INFO - Processing company: https://www.codeandcore.com
+2025-04-21 22:53:12,978 - INFO - Processing company: https://www.techcronus.com/
+2025-04-21 22:53:17,479 - WARNING - No career links found for https://radixweb.com
+2025-04-21 22:53:22,117 - ERROR - Error processing https://rushkar.comcareers.aspx: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://rushkar.comcareers.aspx/
+Call log:
+  - navigating to "https://rushkar.comcareers.aspx/", waiting until "load"
+
+2025-04-21 22:53:46,666 - INFO - Completed batch. Total jobs found so far: 61
+2025-04-21 22:53:51,667 - INFO - Processing batch 7: 5 websites
+2025-04-21 22:53:51,668 - INFO - Processing company: https://www.excellentwebworld.com
+2025-04-21 22:53:51,670 - INFO - Processing company: https://wna-infotech.com/
+2025-04-21 22:53:51,673 - INFO - Processing company: https://www.techuz.com/?utm_source=designrush.com&utm_medium=referral&utm_campaign=Indianpageweb
+2025-04-21 22:53:51,675 - INFO - Processing company: https://paperboattechsol.com
+2025-04-21 22:53:51,677 - INFO - Processing company: https://aspire.jo
+2025-04-21 22:53:56,509 - WARNING - No career links found for https://wna-infotech.com/
+2025-04-21 22:54:07,068 - WARNING - No career links found for https://paperboattechsol.com
+2025-04-21 22:54:29,990 - ERROR - Error processing https://aspire.zohorecruit.com/jobs/Careers/503306000031345001/Internship?source=CareerSite: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-04-21 22:55:11,733 - INFO - Completed batch. Total jobs found so far: 61
+2025-04-21 22:55:16,746 - INFO - Processing batch 8: 5 websites
+2025-04-21 22:55:16,747 - INFO - Processing company: https://www.vervesys.com
+2025-04-21 22:55:16,749 - INFO - Processing company: https://www.inexture.com/
+2025-04-21 22:55:16,750 - INFO - Processing company: https://www.cynoinfotech.com
+2025-04-21 22:55:16,752 - INFO - Processing company: https://maticsolutions.co.in/
+2025-04-21 22:55:16,754 - INFO - Processing company: https://wpwebinfotech.com/
+2025-04-21 22:55:23,201 - WARNING - No career links found for https://maticsolutions.co.in/
+2025-04-21 22:55:35,326 - WARNING - No career links found for https://www.cynoinfotech.com
+2025-04-21 22:56:09,924 - WARNING - Attempt 1 failed for https://www.vervesys.com: Timeout 30000ms exceeded.
+2025-04-21 22:56:23,351 - WARNING - No career links found for https://www.vervesys.com
+2025-04-21 22:56:23,375 - INFO - Completed batch. Total jobs found so far: 62
+2025-04-21 22:56:28,384 - INFO - Processing batch 9: 5 websites
+2025-04-21 22:56:28,385 - INFO - Processing company: https://wirefuture.com
+2025-04-21 22:56:28,387 - INFO - Processing company: https://saeculumsolutions.com
+2025-04-21 22:56:28,390 - INFO - Processing company: https://www.kanhasoft.com/
+2025-04-21 22:56:28,391 - INFO - Processing company: https://www.mindinventory.com
+2025-04-21 22:56:28,393 - INFO - Processing company: https://www.vrinsofts.com/
+2025-04-21 22:56:38,567 - ERROR - Error processing https://www.kanhasoft.comcareer.html: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kanhasoft.comcareer.html/
+Call log:
+  - navigating to "https://www.kanhasoft.comcareer.html/", waiting until "load"
+
+2025-04-21 22:57:09,776 - ERROR - Error processing https://www.vrinsofts.com/career.html: Timeout 30000ms exceeded.
+2025-04-21 22:57:14,092 - INFO - Completed batch. Total jobs found so far: 62
+2025-04-21 22:57:19,100 - INFO - Processing batch 10: 5 websites
+2025-04-21 22:57:19,101 - INFO - Processing company: https://multiqos.com/
+2025-04-21 22:57:19,103 - INFO - Processing company: https://www.encodedots.com/services
+2025-04-21 22:57:19,105 - INFO - Processing company: https://hirefullstackdeveloperindia.com
+2025-04-21 22:57:19,107 - INFO - Processing company: https://gvmtechnologies.com
+2025-04-21 22:57:19,109 - INFO - Processing company: https://skystisinfotech.com
+2025-04-21 22:57:31,519 - WARNING - No career links found for https://skystisinfotech.com
+2025-04-21 22:57:58,519 - WARNING - Attempt 1 failed for https://gvmtechnologies.com: Timeout 30000ms exceeded.
+2025-04-21 22:58:31,852 - WARNING - Attempt 2 failed for https://gvmtechnologies.com: Timeout 30000ms exceeded.
+2025-04-21 22:59:06,243 - WARNING - Attempt 3 failed for https://gvmtechnologies.com: Timeout 30000ms exceeded.
+2025-04-21 22:59:06,244 - ERROR - Failed to scrape links from https://gvmtechnologies.com after 3 attempts
+2025-04-21 22:59:06,244 - WARNING - No career links found for https://gvmtechnologies.com
+2025-04-21 22:59:06,266 - INFO - Completed batch. Total jobs found so far: 70
+2025-04-21 22:59:11,273 - INFO - Processing batch 11: 5 websites
+2025-04-21 22:59:11,274 - INFO - Processing company: https://www.manektech.com
+2025-04-21 22:59:11,276 - INFO - Processing company: https://www.360technosoft.com
+2025-04-21 22:59:11,278 - INFO - Processing company: https://www.atqor.com/
+2025-04-21 22:59:11,280 - INFO - Processing company: https://www.elightwalk.com
+2025-04-21 22:59:11,282 - INFO - Processing company: https://www.skyzinfotech.com
+2025-04-21 22:59:49,255 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,258 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,260 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,262 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,264 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,266 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,268 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,271 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,273 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,275 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,277 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,279 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,281 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,282 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,284 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,286 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,288 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,290 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,292 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,294 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,296 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,298 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,300 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,301 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,303 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,305 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,307 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,309 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,311 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,313 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,315 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,316 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,318 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,319 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,321 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,324 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,326 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,328 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,330 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,332 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,333 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,335 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,337 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,338 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,340 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,342 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,344 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,346 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,348 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,351 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,352 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,354 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,357 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,359 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,361 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,363 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,364 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,366 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,368 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,370 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,372 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,374 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,376 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,378 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,380 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,382 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,383 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,384 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,386 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,387 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,390 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,392 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,393 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,395 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,397 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,398 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,400 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,402 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,404 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,405 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,408 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,409 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,411 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,412 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,413 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,415 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,417 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,419 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,420 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,422 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,424 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,426 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,428 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,430 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,432 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,434 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,436 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,439 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,442 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,444 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,447 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,448 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,451 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,452 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,454 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,457 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,458 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,460 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,462 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,464 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,465 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,467 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,470 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,472 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,474 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,475 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,477 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,479 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,481 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,483 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,484 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,486 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,487 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,488 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,491 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,492 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,494 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,496 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,497 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,499 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,500 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,502 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,503 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,505 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,507 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,509 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,510 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,512 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,514 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,515 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,517 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,519 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,521 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,523 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,525 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,527 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,529 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,531 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,533 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,534 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,536 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,538 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,539 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,543 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,544 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,546 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,548 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,550 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,552 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,554 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,555 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,557 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,559 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,560 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,562 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,564 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,566 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,568 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,570 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,572 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,574 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,575 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,577 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,578 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,581 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,583 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,584 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,586 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,588 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,590 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,592 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,593 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,595 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,596 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,598 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,599 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,601 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,604 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,605 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,607 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,609 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,611 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,613 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,615 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,616 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,618 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,620 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,622 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,624 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,626 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,627 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,629 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,632 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,633 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,635 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,637 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,639 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,640 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,642 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,644 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,646 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,647 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,649 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,650 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,653 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,655 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,659 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,661 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,663 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,665 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,666 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,668 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,670 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,671 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,673 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,675 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,677 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,679 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,680 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,682 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,684 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,685 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,687 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,689 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,691 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,693 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,694 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,698 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,700 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,702 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,703 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,706 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,708 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,710 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,712 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,713 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,715 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,718 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,720 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,721 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,723 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,725 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,727 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,729 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,731 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,733 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,734 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,737 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,739 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,741 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,743 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,744 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,746 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,748 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,749 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,752 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,754 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,755 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,758 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,760 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,762 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,764 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,766 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,768 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,769 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,771 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,774 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,776 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,778 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,780 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,781 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,783 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,784 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,786 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,787 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,790 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,792 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,794 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,796 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,797 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,799 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,800 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,802 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,803 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,805 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,807 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,808 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,810 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,811 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,813 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,815 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,817 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,818 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,820 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,821 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,823 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,825 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,827 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,829 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,831 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,833 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,835 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,836 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,838 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,839 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,841 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,842 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,844 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,846 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,848 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,850 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,851 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,853 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,855 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,858 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,860 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,861 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,862 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,864 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,865 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,867 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,868 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,869 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,871 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,872 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,875 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,877 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,879 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,881 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,882 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,884 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,885 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,888 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,890 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,892 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,894 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,896 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,898 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,900 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,902 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,904 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,906 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,909 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,910 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,912 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,913 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,915 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,916 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,918 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,919 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,921 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,923 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,925 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,927 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,929 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,930 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,932 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,934 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,936 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,937 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,939 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,941 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,943 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,944 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,946 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,948 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,948 - WARNING - No career links found for https://www.atqor.com/
+2025-04-21 22:59:49,949 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,951 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,952 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,955 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,956 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,959 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,961 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,963 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,964 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,966 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,967 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,969 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,971 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,972 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,974 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,977 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,979 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,980 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,982 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,984 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,986 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,987 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,990 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,992 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,994 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,995 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,997 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:49,999 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,001 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,003 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,005 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,007 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,009 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,011 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,012 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,014 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,016 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,018 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,019 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,021 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,023 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,025 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,027 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,029 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,031 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,032 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,034 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,035 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,037 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,039 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,040 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,042 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,044 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,046 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,047 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,049 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,051 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,053 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,055 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,056 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,058 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,060 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,062 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,063 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,064 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,066 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,067 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,069 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,071 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,074 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,076 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,078 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,080 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,082 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,084 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,086 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,087 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,090 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,092 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,094 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,095 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,097 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,098 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,100 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,102 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,105 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,107 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,109 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,110 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,112 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,114 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,116 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,118 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,119 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,121 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,123 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,125 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,127 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,129 - WARNING - socket.send() raised exception.
+2025-04-21 22:59:50,129 - ERROR - Error processing https://www.manektech.com/career: Page.goto: Connection closed while reading from the driver
+2025-04-21 22:59:50,131 - WARNING - socket.send() raised exception.
+2025-04-21 23:04:29,710 - INFO - Starting job scraping process
+2025-04-21 23:04:29,712 - INFO - Loaded 50 company websites (limited to 50)
+2025-04-21 23:04:30,244 - INFO - Processing batch 1: 5 websites (5/50)
+2025-04-21 23:04:30,245 - INFO - Processing company: https://www.bytestechnolab.com/our-services/?utm_source=designrush.com&utm_medium=referral&utm_campaign=directory
+2025-04-21 23:04:30,248 - INFO - Processing company: https://magnetoitsolutions.com/?utm_source=designrush&utm_medium=top_directory_listing&utm_campaign=designrush_profile
+2025-04-21 23:04:30,252 - INFO - Processing company: https://www.openxcell.com/?utm_source=designrush&utm_medium=referral&utm_campaign=profile
+2025-04-21 23:04:30,255 - INFO - Processing company: https://www.addwebsolution.com/
+2025-04-21 23:04:30,258 - INFO - Processing company: https://internut.my
+2025-04-21 23:04:31,149 - WARNING - No career links found for https://www.openxcell.com/?utm_source=designrush&utm_medium=referral&utm_campaign=profile
+2025-04-21 23:04:46,460 - WARNING - No career links found for https://internut.my
+2025-04-21 23:05:01,279 - INFO - Saved 1 new jobs. Total jobs: 1
+2025-04-21 23:05:01,280 - INFO - Completed batch. Found 1 jobs in this batch
+2025-04-21 23:05:06,286 - INFO - Processing batch 2: 5 websites (10/50)
+2025-04-21 23:05:06,286 - INFO - Processing company: https://www.solutionanalysts.com
+2025-04-21 23:05:06,288 - INFO - Processing company: https://techforceglobal.com
+2025-04-21 23:05:06,290 - INFO - Processing company: https://octet.design/?utm_source=DesignRush&utm_medium=Categories&utm_campaign=August
+2025-04-21 23:05:06,292 - INFO - Processing company: https://www.krishaweb.com
+2025-04-21 23:05:06,293 - INFO - Processing company: https://www.iqlance.com
+2025-04-21 23:05:29,816 - ERROR - Error processing https://www.krishaweb.com/career/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2025-04-21 23:05:45,049 - INFO - Saved 22 new jobs. Total jobs: 23
+2025-04-21 23:05:45,049 - INFO - Completed batch. Found 22 jobs in this batch
+2025-04-21 23:05:50,055 - INFO - Processing batch 3: 5 websites (15/50)
+2025-04-21 23:05:50,055 - INFO - Processing company: https://www.alliancetek.com/?utm_source=designrush&utm_medium=referral&utm_campaign=designrush_software-development
+2025-04-21 23:05:50,057 - INFO - Processing company: https://www.mavlers.com/digital-outsourcing-agency/?utm_source=designrush&utm_medium=visit_website_cta&utm_campaign=directory_listing
+2025-04-21 23:05:50,059 - INFO - Processing company: https://sonomainfotech.com
+2025-04-21 23:05:50,061 - INFO - Processing company: https://www.spec-india.com
+2025-04-21 23:05:50,063 - INFO - Processing company: https://www.itservicesindia.com/
+2025-04-21 23:05:56,851 - WARNING - No career links found for https://www.mavlers.com/digital-outsourcing-agency/?utm_source=designrush&utm_medium=visit_website_cta&utm_campaign=directory_listing
+2025-04-21 23:05:57,351 - WARNING - No career links found for https://sonomainfotech.com
+2025-04-21 23:05:58,140 - ERROR - Error processing https://www.alliancetek.comcareer.html: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.alliancetek.comcareer.html/
+Call log:
+  - navigating to "https://www.alliancetek.comcareer.html/", waiting until "load"
+
+2025-04-21 23:06:03,616 - INFO - Saved 1 new jobs. Total jobs: 24
+2025-04-21 23:06:03,616 - INFO - Completed batch. Found 1 jobs in this batch
+2025-04-21 23:06:08,626 - INFO - Processing batch 4: 5 websites (20/50)
+2025-04-21 23:06:08,627 - INFO - Processing company: https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing
+2025-04-21 23:06:08,629 - INFO - Processing company: https://icubetechnolabs.com/
+2025-04-21 23:06:08,630 - INFO - Processing company: https://www.cmarix.com
+2025-04-21 23:06:08,633 - INFO - Processing company: https://www.avidclan.com
+2025-04-21 23:06:08,634 - INFO - Processing company: https://www.junkiescoder.com
+2025-04-21 23:06:12,798 - WARNING - No career links found for https://www.junkiescoder.com
+2025-04-21 23:06:14,038 - ERROR - Error processing https://www.cmarix.comcareer.html: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cmarix.comcareer.html/
+Call log:
+  - navigating to "https://www.cmarix.comcareer.html/", waiting until "load"
+
+2025-04-21 23:06:40,804 - WARNING - Attempt 1 failed for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing: Timeout 30000ms exceeded.
+2025-04-21 23:06:43,910 - WARNING - Attempt 1 failed for https://icubetechnolabs.com/: Timeout 30000ms exceeded.
+2025-04-21 23:07:12,235 - WARNING - Attempt 2 failed for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing: Timeout 30000ms exceeded.
+2025-04-21 23:07:19,165 - WARNING - Attempt 2 failed for https://icubetechnolabs.com/: Timeout 30000ms exceeded.
+2025-04-21 23:07:44,571 - WARNING - Attempt 3 failed for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing: Timeout 30000ms exceeded.
+2025-04-21 23:07:44,571 - ERROR - Failed to scrape links from https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing after 3 attempts
+2025-04-21 23:07:44,572 - WARNING - No career links found for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing
+2025-04-21 23:07:54,923 - WARNING - Attempt 3 failed for https://icubetechnolabs.com/: Timeout 30000ms exceeded.
+2025-04-21 23:07:54,924 - ERROR - Failed to scrape links from https://icubetechnolabs.com/ after 3 attempts
+2025-04-21 23:07:54,924 - WARNING - No career links found for https://icubetechnolabs.com/
+2025-04-21 23:07:54,961 - INFO - Saved 6 new jobs. Total jobs: 30
+2025-04-21 23:07:54,961 - INFO - Completed batch. Found 6 jobs in this batch
+2025-04-21 23:07:59,967 - INFO - Processing batch 5: 5 websites (25/50)
+2025-04-21 23:07:59,968 - INFO - Processing company: https://www.nevinainfotech.com
+2025-04-21 23:07:59,969 - INFO - Processing company: https://www.intuz.com
+2025-04-21 23:07:59,972 - INFO - Processing company: https://www.groovyweb.co?utm_source=DesignRush&utm_medium=directory&utm_campaign=DesignRush
+2025-04-21 23:07:59,973 - INFO - Processing company: https://www.netclues.ca
+2025-04-21 23:07:59,975 - INFO - Processing company: https://multiverseapp.com
+2025-04-21 23:08:04,510 - WARNING - No career links found for https://multiverseapp.com
+2025-04-21 23:08:12,467 - WARNING - No career links found for https://www.netclues.ca
+2025-04-21 23:08:39,430 - ERROR - Error processing https://www.groovyweb.co/career: Timeout 30000ms exceeded.
+2025-04-21 23:08:44,344 - INFO - Saved 4 new jobs. Total jobs: 34
+2025-04-21 23:08:44,344 - INFO - Completed batch. Found 4 jobs in this batch
+2025-04-21 23:08:49,345 - INFO - Processing batch 6: 5 websites (30/50)
+2025-04-21 23:08:49,345 - INFO - Processing company: https://rushkar.com
+2025-04-21 23:08:49,348 - INFO - Processing company: https://www.revivalpixel.com
+2025-04-21 23:08:49,350 - INFO - Processing company: https://radixweb.com
+2025-04-21 23:08:49,352 - INFO - Processing company: https://www.codeandcore.com
+2025-04-21 23:08:49,354 - INFO - Processing company: https://www.techcronus.com/
+2025-04-21 23:08:52,868 - WARNING - No career links found for https://radixweb.com
+2025-04-21 23:08:55,361 - ERROR - Error processing https://rushkar.comcareers.aspx: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://rushkar.comcareers.aspx/
+Call log:
+  - navigating to "https://rushkar.comcareers.aspx/", waiting until "load"
+
+2025-04-21 23:09:22,144 - INFO - Saved 24 new jobs. Total jobs: 58
+2025-04-21 23:09:22,144 - INFO - Completed batch. Found 24 jobs in this batch
+2025-04-21 23:09:27,152 - INFO - Processing batch 7: 5 websites (35/50)
+2025-04-21 23:09:27,152 - INFO - Processing company: https://www.excellentwebworld.com
+2025-04-21 23:09:27,154 - INFO - Processing company: https://wna-infotech.com/
+2025-04-21 23:09:27,156 - INFO - Processing company: https://www.techuz.com/?utm_source=designrush.com&utm_medium=referral&utm_campaign=Indianpageweb
+2025-04-21 23:09:27,158 - INFO - Processing company: https://paperboattechsol.com
+2025-04-21 23:09:27,160 - INFO - Processing company: https://aspire.jo
+2025-04-21 23:09:31,785 - WARNING - No career links found for https://wna-infotech.com/
+2025-04-21 23:09:53,832 - WARNING - No career links found for https://paperboattechsol.com
+2025-04-21 23:10:55,935 - INFO - Saved 1 new jobs. Total jobs: 59
+2025-04-21 23:10:55,935 - INFO - Completed batch. Found 1 jobs in this batch
+2025-04-21 23:11:00,948 - INFO - Processing batch 8: 5 websites (40/50)
+2025-04-21 23:11:00,948 - INFO - Processing company: https://www.vervesys.com
+2025-04-21 23:11:00,950 - INFO - Processing company: https://www.inexture.com/
+2025-04-21 23:11:00,953 - INFO - Processing company: https://www.cynoinfotech.com
+2025-04-21 23:11:00,955 - INFO - Processing company: https://maticsolutions.co.in/
+2025-04-21 23:11:00,957 - INFO - Processing company: https://wpwebinfotech.com/
+2025-04-21 23:11:07,903 - WARNING - No career links found for https://maticsolutions.co.in/
+2025-04-21 23:11:18,763 - WARNING - No career links found for https://www.cynoinfotech.com
+2025-04-21 23:11:21,411 - ERROR - Error processing https://www.inexture.com/portfolios/career-consulting/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2025-04-21 23:11:54,665 - WARNING - Attempt 1 failed for https://www.vervesys.com: Timeout 30000ms exceeded.
+2025-04-21 23:12:07,950 - WARNING - No career links found for https://www.vervesys.com
+2025-04-21 23:12:07,973 - INFO - Saved 1 new jobs. Total jobs: 60
+2025-04-21 23:12:07,973 - INFO - Completed batch. Found 1 jobs in this batch
+2025-04-21 23:12:12,986 - INFO - Processing batch 9: 5 websites (45/50)
+2025-04-21 23:12:12,987 - INFO - Processing company: https://wirefuture.com
+2025-04-21 23:12:12,989 - INFO - Processing company: https://saeculumsolutions.com
+2025-04-21 23:12:12,991 - INFO - Processing company: https://www.kanhasoft.com/
+2025-04-21 23:12:12,993 - INFO - Processing company: https://www.mindinventory.com
+2025-04-21 23:12:12,995 - INFO - Processing company: https://www.vrinsofts.com/
+2025-04-21 23:12:22,188 - ERROR - Error processing https://www.kanhasoft.comcareer.html: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kanhasoft.comcareer.html/
+Call log:
+  - navigating to "https://www.kanhasoft.comcareer.html/", waiting until "load"
+
+2025-04-21 23:12:54,013 - ERROR - Error processing https://www.vrinsofts.com/career.html: Timeout 30000ms exceeded.
+2025-04-21 23:12:56,037 - INFO - Completed batch. Found 0 jobs in this batch
+2025-04-21 23:13:01,052 - INFO - Processing batch 10: 5 websites (50/50)
+2025-04-21 23:13:01,053 - INFO - Processing company: https://multiqos.com/
+2025-04-21 23:13:01,055 - INFO - Processing company: https://www.encodedots.com/services
+2025-04-21 23:13:01,057 - INFO - Processing company: https://hirefullstackdeveloperindia.com
+2025-04-21 23:13:01,059 - INFO - Processing company: https://gvmtechnologies.com
+2025-04-21 23:13:01,061 - INFO - Processing company: https://skystisinfotech.com
+2025-04-21 23:13:12,169 - WARNING - No career links found for https://skystisinfotech.com
+2025-04-21 23:13:41,914 - WARNING - Attempt 1 failed for https://gvmtechnologies.com: Timeout 30000ms exceeded.
+2025-04-21 23:14:15,151 - WARNING - Attempt 2 failed for https://gvmtechnologies.com: Timeout 30000ms exceeded.
+2025-04-21 23:14:49,767 - WARNING - Attempt 3 failed for https://gvmtechnologies.com: Timeout 30000ms exceeded.
+2025-04-21 23:14:49,767 - ERROR - Failed to scrape links from https://gvmtechnologies.com after 3 attempts
+2025-04-21 23:14:49,768 - WARNING - No career links found for https://gvmtechnologies.com
+2025-04-21 23:14:49,791 - INFO - Saved 8 new jobs. Total jobs: 68
+2025-04-21 23:14:49,791 - INFO - Completed batch. Found 8 jobs in this batch
+2025-04-21 23:14:54,869 - INFO - Scraping completed in 0:10:25.159607
+2025-04-21 23:51:59,892 - INFO - Starting job scraping process
+2025-04-21 23:52:27,776 - ERROR - Error processing https://www.alliancetek.comcareer.html: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.alliancetek.comcareer.html/
+Call log:
+  - navigating to "https://www.alliancetek.comcareer.html/", waiting until "load"
+
+2025-04-21 23:52:43,356 - ERROR - Error processing https://www.krishaweb.commailto:career@krishaweb.com: 499 The operation was cancelled.
+2025-04-21 23:52:43,495 - ERROR - Error processing https://www.cmarix.comcareer.html: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cmarix.comcareer.html/
+Call log:
+  - navigating to "https://www.cmarix.comcareer.html/", waiting until "load"
+
+2025-04-21 23:52:45,227 - WARNING - Attempt 1 failed for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing: Timeout 30000ms exceeded.
+2025-04-21 23:52:49,872 - ERROR - Error processing https://www.iqlance.com/career/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2025-04-21 23:52:49,880 - WARNING - Attempt 1 failed for https://icubetechnolabs.com/: Timeout 30000ms exceeded.
+2025-04-21 23:52:52,807 - ERROR - Error processing https://www.avidclan.commailto:career@avidclan.com: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+]
+2025-04-21 23:52:58,209 - ERROR - Error processing https://www.addwebsolution.com/careers: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-04-21 23:53:00,444 - ERROR - Error processing https://www.avidclan.com/career/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-04-21 23:53:03,059 - ERROR - Error processing https://www.krishaweb.com/career/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-04-21 23:53:19,901 - WARNING - Attempt 2 failed for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing: Timeout 30000ms exceeded.
+2025-04-21 23:53:24,399 - WARNING - Attempt 2 failed for https://icubetechnolabs.com/: Timeout 30000ms exceeded.
+2025-04-21 23:53:52,237 - WARNING - Attempt 3 failed for https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing: Timeout 30000ms exceeded.
+2025-04-21 23:53:52,238 - ERROR - Failed to scrape links from https://www.atlassoftweb.com/our-services/seo-services/?utm_source=Designrush%20Listing&utm_medium=Listing%20Url&utm_campaign=Designrush%20Agency%20Listing after 3 attempts
+2025-04-21 23:54:01,063 - WARNING - Attempt 3 failed for https://icubetechnolabs.com/: Timeout 30000ms exceeded.
+2025-04-21 23:54:01,064 - ERROR - Failed to scrape links from https://icubetechnolabs.com/ after 3 attempts
+2025-04-21 23:54:01,108 - INFO - Saved 14 new jobs. Total jobs: 14
+2025-04-21 23:54:24,249 - ERROR - Error processing https://rushkar.comcareers.aspx: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://rushkar.comcareers.aspx/
+Call log:
+  - navigating to "https://rushkar.comcareers.aspx/", waiting until "load"
+
+2025-04-21 23:54:33,459 - WARNING - Attempt 1 failed for https://paperboattechsol.com: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://paperboattechsol.com/", waiting until "load"
+
+2025-04-21 23:54:33,479 - WARNING - Attempt 1 failed for https://www.vervesys.com: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.vervesys.com/", waiting until "load"
+
+2025-04-21 23:54:33,507 - WARNING - Attempt 1 failed for https://www.cynoinfotech.com: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.cynoinfotech.com/", waiting until "load"
+
+2025-04-21 23:54:33,522 - WARNING - Attempt 1 failed for https://maticsolutions.co.in/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://maticsolutions.co.in/", waiting until "load"
+
+2025-04-21 23:54:49,163 - ERROR - Error processing https://aspire.jo/careers/our-recruitment-process/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-04-21 23:54:51,886 - ERROR - Error processing https://www.inexture.com/portfolios/career-consulting/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+2025-04-21 23:54:53,569 - ERROR - Error processing https://aspire.jo/careers/work-at-the-heart-of-aspiration/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-04-21 23:54:58,453 - ERROR - Error processing https://aspire.jo/careers/alumni/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2025-04-21 23:55:04,691 - ERROR - Error processing https://aspire.zohorecruit.com/jobs/Careers/503306000031345001/Internship?source=CareerSite: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+]
+2025-04-21 23:55:04,695 - ERROR - Error processing https://www.groovyweb.co/career: Timeout 30000ms exceeded.
+2025-04-21 23:55:04,698 - WARNING - Attempt 2 failed for https://www.vervesys.com: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.vervesys.com/", waiting until "load"
+
+2025-04-21 23:55:04,698 - WARNING - Attempt 2 failed for https://maticsolutions.co.in/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://maticsolutions.co.in/", waiting until "load"
+
+2025-04-21 23:55:08,225 - ERROR - Error processing https://www.techcronus.com/career-current-openings: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-04-21 23:55:11,253 - ERROR - Error processing https://aspire.jo/careers/vacancies/: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 1000000
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2025-04-21 23:55:49,485 - WARNING - Attempt 3 failed for https://www.vervesys.com: Timeout 30000ms exceeded.
+2025-04-21 23:55:49,485 - ERROR - Failed to scrape links from https://www.vervesys.com after 3 attempts
+2025-04-21 23:55:49,519 - INFO - Saved 27 new jobs. Total jobs: 41
+2025-04-21 23:56:11,267 - ERROR - Error processing https://www.kanhasoft.comcareer.html: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kanhasoft.comcareer.html/
+Call log:
+  - navigating to "https://www.kanhasoft.comcareer.html/", waiting until "load"
+
+2025-04-21 23:56:32,157 - WARNING - Attempt 1 failed for https://gvmtechnologies.com: Timeout 30000ms exceeded.
+2025-04-21 23:56:43,267 - ERROR - Error processing https://www.vrinsofts.com/career.html: Timeout 30000ms exceeded.
+2025-04-21 23:57:05,623 - WARNING - Attempt 2 failed for https://gvmtechnologies.com: Timeout 30000ms exceeded.
+2025-04-21 23:57:40,230 - WARNING - Attempt 3 failed for https://gvmtechnologies.com: Timeout 30000ms exceeded.
+2025-04-21 23:57:40,231 - ERROR - Failed to scrape links from https://gvmtechnologies.com after 3 attempts
+2025-04-21 23:57:40,255 - INFO - Saved 13 new jobs. Total jobs: 54
+2025-04-21 23:57:42,411 - INFO - Scraping completed in 0:05:42.519040. Found 54 jobs.
+2025-04-21 23:57:44,288 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3087e115f01sm6967768a91.43 - gsmtp')
